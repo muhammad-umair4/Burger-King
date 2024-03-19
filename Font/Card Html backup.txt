@@ -1,0 +1,20 @@
+    <!-- cards start -->
+    <div class="cards">
+        <div class="card">
+            <div class="card-container"><img src="Images/first image.webp" alt="first card"></div>
+            <div class="card-content">
+                <h3>The perfect St. Patrick's Day snack</h3>
+                <p>Lucky you, you're getting golden brown Onion Rings FREE with a $1+ purchase. If there was a rainbow
+                    at BK®, these would definitely be at the end of it.</p><button class="card-btn">Order Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-container"><img src="Images/second image.webp" alt="second card"></div>
+            <div class="card-content">
+                <h3>You still have a chance to win $1 MILLION</h3>
+                <p>The Million Dollar Whopper® Contest ends 3/17. Enter for a chance at $1 million. AND get a FREE
+                    Whopper® with $1+ purchase* with your first entry.</p><button class="cards-btn">Create your
+                    Whopper</button>
+            </div>
+        </div>
+        <!-- cards end -->
