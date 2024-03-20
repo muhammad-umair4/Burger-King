@@ -95,6 +95,7 @@
 }
 
 .main-content h1 {
+    width: 300px;
     padding-top: 50px;
     font-size: 60px;
     font-family: flame-bold;
@@ -215,12 +216,13 @@
 .foot {
     display: flex;
     justify-content: center;
-    background-color:#ebe2d3;
+    background-color: #ebe2d3;
     gap: 80px;
     height: 545px;
     margin-top: 170px;
 }
-.foot-img{
+
+.foot-img {
     background-color: #ebe2d3;
 }
 
@@ -267,27 +269,30 @@
 
 /* foot app and img ends */
 /* foot bar start */
-    .foot-bar{
-        text-align: center;
-        font-family:flamesans;
-    }
-    .foot-bar p,a{
-        background-color: #502314;
-        color:#ebe2d3;
-        font-size:12px;
-        height:50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding:5px;
-    }
+.foot-bar {
+    text-align: center;
+    font-family: flamesans;
+}
+
+.foot-bar p,
+a {
+    background-color: #502314;
+    color: #ebe2d3;
+    font-size: 12px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
 /* foot bar end */
 /* foot menu start */
 .foot-menu {
     display: flex;
     justify-content: space-around;
-    align-items: center; 
-    height:55px;
+    align-items: center;
+    height: 55px;
 }
 
 .foot-menu div {
@@ -297,14 +302,84 @@
 .foot-menu img {
     display: block;
     margin: 0 auto;
-    width:20px;
-    height:20px; 
+    width: 20px;
+    height: 20px;
     mix-blend-mode: multiply;
 }
-.foot-menu p{
-    font-size:12px;
-    font-family:flamesans;
+
+.foot-menu p {
+    font-size: 12px;
+    font-family: flamesans;
     color: #502314;
-    line-height:25px;
+    line-height: 25px;
 }
+
 /* foot menu end */
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        display: flex;
+        justify-content: initial;
+        z-index:1;
+    }
+
+    .ham-burger {
+        margin-left: 16px;
+    }
+
+    .web-logo {
+        margin-left: 245px;
+    }
+
+    .nav-btn {
+        margin-left: 150px;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main-content h1 {
+        padding: 0;
+        width: 600px;
+        font-size: 32px;
+        margin-left: 145px;
+        margin-top: 13px;
+    }
+
+    .main-img img {
+        width: 600px;
+        height: 324px;
+        position: relative;
+        bottom:133px;
+    }
+    .main-btn {
+        position: relative;
+        top:322px;
+        right:300px;
+        gap:10px;
+    }
+    .main-btn button{
+        width:560px;
+    }
+    .card-pair{
+        display: block;
+        margin-top:130px;
+        margin-left:9px;
+        
+    }
+    .card {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+}
+    #new-comin{
+        position: relative;
+        bottom:110px;
+}
+    #pandatoys{
+        position: relative;
+        bottom:220px;
+        
+    }
+
+}
