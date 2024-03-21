@@ -333,7 +333,9 @@ a {
     .nav-btn {
         margin-left: 150px;
     }
-
+    .cart{
+        display:none;
+    }
     .main {
         display: block;
     }
@@ -379,7 +381,6 @@ a {
     #pandatoys{
         position: relative;
         bottom:220px;
-        
     }
 
 }
