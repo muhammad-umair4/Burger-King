@@ -10,8 +10,8 @@
 }
 
 /* nav-bar start */
-.ham-burger {
-    margin-left: 180px;
+.ham-burger{
+    margin-left:18px;
 }
 
 .ham-burger img {
@@ -23,9 +23,8 @@
     width: 100%;
     height: 56px;
     display: flex;
-    position: fixed;
-    justify-content: space-around;
     align-items: center;
+    position: fixed;
     border-bottom: 1px solid silver;
 }
 
@@ -41,7 +40,13 @@
 .nav-btn {
     display: flex;
     gap: 19px;
-    margin-right: 178px;
+}
+.navbar-content{
+    margin: auto;
+    width:64%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-btn button {
